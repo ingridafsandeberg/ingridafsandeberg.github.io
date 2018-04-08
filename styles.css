@@ -1,0 +1,73 @@
+h1 {
+  color: #00ffff;
+  font-size: 40px;
+  font-family: "futura";
+  text-align: center;
+}
+h2 {
+  color: #00ffff;
+  font-size: 20px;
+  text-align: center;
+}
+h3 {
+  color: #00ffff;
+  font-size: 20px;
+  text-align: center;
+}
+a {
+  color: #00ffff;
+  font-size: 15px;
+  font-variant: small-caps;
+  text-align: center;
+}
+body {
+  background-color: black;
+  font-family: "Futura PT", sans-serif;
+}
+img {
+  border: 5px #ccffff solid;
+}
+.basic {
+  font-size: 20px;
+  font-family: "Futura PT", sans-serif;
+  color: #ccffff;
+}
+.container {
+	display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.container2 {
+	display: flex;
+  text-align: center;
+  padding: 10px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.inner-container {
+  text-align: center;
+  width: 150px;
+}
+.container-image {
+	display: flex;
+  justify-content: center;
+}
+.text-box {
+  font-size: 30px;
+  color: #ccffff;
+  background-color: black;
+  width: "300px";
+  height: "300px";
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+.outer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content:center;
+}
